@@ -1,14 +1,16 @@
 <?php
 
+namespace BarcodeValidator;
+
 /**
  * A PHP class for validating EAN, IMEI, ISBN, GTIN, SSCC, GSIN, UPC and other barcodes.
  *
  * @package BarcodeValidator
  * @author    Ivan Melgrati
- * @version   v1.1.2.2
+ * @version   v1.1.2.3
  */
 
-if (!class_exists('BarcodeValidator')) {
+if (!class_exists('\BarcodeValidator\BarcodeValidator')) {
 	/**
 	 * A PHP class for validating EAN, IMEI, ISBN, GTIN, SSCC, GSIN, UPC and other similar codes.
 	 * 
