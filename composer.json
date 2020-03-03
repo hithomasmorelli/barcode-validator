@@ -1,21 +1,25 @@
 {
-    "name": "imelgrat/barcode-validator",
+    "name": "hithomasmorelli/barcode-validator",
     "type": "library",
     "version" : "v1.1.2.1",
     "description": "A PHP class for validating EAN, IMEI, ISBN, GTIN, SSCC, GSIN, UPC and other barcodes.",
     "keywords": ["IMEI", "IMEI code", "EAN", "UPC", "GTIN", "ISBN", "EAN code", "UPC code", "GTIN code", "ISBN code", "code validation"],
-    "homepage": "https://github.com/imelgrat/barcode-validator",
+    "homepage": "https://github.com/hithomasmorelli/barcode-validator",
     "license": "MIT",
     "authors": [
         {
             "name": "Ivan Melgrati",
             "homepage": "http://imelgrat.me",
             "role": "Developer"
+        },
+        {
+            "name": "Thomas Morelli",
+            "role": "Developer"
         }
     ],
     "autoload": {
-        "psr-0": {
-            "": "src/"
+        "psr-4": {
+            "BarcodeValidator\\": "src/"
         }
     },
     "minimum-stability": "dev",
