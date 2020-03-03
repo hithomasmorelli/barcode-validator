@@ -1,5 +1,5 @@
 {
-    "name": "hithomasmorelli/barcode-validator",
+    "name": "imelgrat/barcode-validator",
     "type": "library",
     "version" : "v1.1.2.2",
     "description": "A PHP class for validating EAN, IMEI, ISBN, GTIN, SSCC, GSIN, UPC and other barcodes.",
@@ -10,10 +10,6 @@
         {
             "name": "Ivan Melgrati",
             "homepage": "http://imelgrat.me",
-            "role": "Developer"
-        },
-        {
-            "name": "Thomas Morelli",
             "role": "Developer"
         }
     ],
