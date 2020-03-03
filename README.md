@@ -9,7 +9,7 @@ BarcodeValidator
 
 A PHP class for validating EAN, IMEI, ISBN, GTIN, SSCC, GSIN, UPC and other similar codes.
 
-Developed by [Ivan Melgrati](https://imelgrat.me) & adapted by Thomas Morelli
+Developed by [Ivan Melgrati](https://imelgrat.me)
 
 Requirements
 ------------
